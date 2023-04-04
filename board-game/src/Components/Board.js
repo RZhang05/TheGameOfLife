@@ -3,7 +3,7 @@ import styles from "../styles/board.module.css";
 
 import Cell from "./Cell";
 
-const Board = () => {
+const Board = ({ returnMenu }) => {
   const [cells, setCells] = useState([]);
   // rowind, colind
   const [selected, setSelected] = useState([-1, -1]);
@@ -50,6 +50,9 @@ const Board = () => {
           </div>
         );
       })}
+      <div className={styles.exit} onClick={returnMenu}>
+        Back to menu
+      </div>
     </div>
   );
 };

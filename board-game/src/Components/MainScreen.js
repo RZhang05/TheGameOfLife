@@ -42,7 +42,13 @@ const MainScreen = () => {
           }}
         />
       )}
-      {screen == 1 && <Board />}
+      {screen == 1 && (
+        <Board
+          returnMenu={() => {
+            setScreen(0);
+          }}
+        />
+      )}
     </div>
   );
 };
