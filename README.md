@@ -1,2 +1,2 @@
-# TheGameOfLife
-492 Final A
+# The Game Of Life
+492 Final Assignment
