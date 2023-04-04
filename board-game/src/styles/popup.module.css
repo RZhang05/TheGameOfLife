@@ -1,0 +1,60 @@
+.popupBack {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(33, 33, 34, 0.9);
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  width: 60vw;
+  height: 50vh;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #414141;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #fff;
+  padding: 10px;
+}
+
+.popupHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.closeButton {
+  position: absolute;
+  right: 15px;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+}
+
+.popupBody {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  flex: 1;
+}
+
+.scenarioText {
+  flex: 1;
+}
+
+.result {
+  display: flex;
+  color: red;
+}
