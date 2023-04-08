@@ -16,7 +16,13 @@ const Cell = ({
   return (
     <>
       <div
-        className={visible ? styles.cell : styles.empty}
+        className={
+          visible
+            ? options.length > 0
+              ? styles.clickableCell
+              : styles.cell
+            : styles.empty
+        }
         style={
           visible
             ? { backgroundColor: colour }
