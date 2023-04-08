@@ -30,6 +30,15 @@ const MainScreen = () => {
                 });
               }}
             />
+            <Button
+              text="Scenarios"
+              onClick={() => {
+                window.open(
+                  "https://docs.google.com/document/d/1QuH3qJ2X94bW9uHYI0grtFYiJZCgd9CSerSRmR5QH-Y/edit?usp=sharing",
+                  "_blank"
+                );
+              }}
+            />
           </div>
         </div>
       )}

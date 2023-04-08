@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "../styles/board.module.css";
 
 import Cell from "./Cell";
+import Logo from "./Logo";
 
 const Board = ({ returnMenu }) => {
   const [cells, setCells] = useState([]);
@@ -72,7 +73,7 @@ const addBoard = (temp) => {
 
   temp[4][1] = {
     visible: true,
-    options: ["+5 mental fortitude"],
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
     text: "Grit",
     colour: "#F7E705",
     scenarioText:
@@ -81,7 +82,7 @@ const addBoard = (temp) => {
 
   temp[3][1] = {
     visible: true,
-    options: ["+10 mental fortitude"],
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
     text: "Grit",
     colour: "#F7E705",
     scenarioText:
@@ -99,7 +100,7 @@ const addBoard = (temp) => {
 
   temp[2][2] = {
     visible: true,
-    options: ["+5 mental fortitude"],
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
     text: "Grit",
     colour: "#F7E705",
     scenarioText: "You find yourself an angsty teenager already!",
@@ -107,7 +108,7 @@ const addBoard = (temp) => {
 
   temp[2][3] = {
     visible: true,
-    options: ["+10 mental fortitude"],
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
     text: "Grit",
     colour: "#F7E705",
     scenarioText: "In a flash you have become a young adult!",
@@ -133,7 +134,7 @@ const addBoard = (temp) => {
 
   temp[3][4] = {
     visible: true,
-    options: ["+2000 dollar"],
+    options: ["Roll a d4. Receive the roll * 2000 dollars."],
     text: "Money",
     colour: "#2ee681",
     scenarioText: "You got some money!",
@@ -159,7 +160,7 @@ const addBoard = (temp) => {
 
   temp[3][6] = {
     visible: true,
-    options: ["+2000 dollar"],
+    options: ["Roll a d4. Receive the roll * 2000 dollars."],
     text: "Money",
     colour: "#2ee681",
     scenarioText: "You got some money!",
@@ -185,29 +186,29 @@ const addBoard = (temp) => {
 
   temp[4][7] = {
     visible: true,
-    options: ["+2000 dollar"],
+    options: ["Roll a d4. Receive the roll * 2000 dollars."],
     text: "Money",
     colour: "#2ee681",
     scenarioText: "You got some money!",
   };
   temp[4][7] = {
     visible: true,
-    options: ["+3000 dollar"],
+    options: ["Roll a d4. Receive the roll * 2000 dollars."],
     text: "Money",
     colour: "#2ee681",
     scenarioText: "You got some money!",
   };
   temp[4][8] = {
     visible: true,
-    options: ["+3000 dollar"],
-    text: "Money",
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
+    text: "Grit",
     colour: "#2ee681",
-    scenarioText: "You got some money!",
+    scenarioText: "Working hard everyday has improved your mental resilience!",
   };
 
   temp[4][9] = {
     visible: true,
-    options: ["+4000 dollar"],
+    options: ["Roll a d4. Receive the roll * 2000 dollars."],
     text: "Money",
     colour: "#2ee681",
     scenarioText: "You got some money!",
@@ -253,9 +254,11 @@ const addBoard = (temp) => {
   };
   temp[1][10] = {
     visible: true,
-    options: [],
-    text: "",
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
+    text: "Grit",
     colour: "#56a0f5",
+    scenarioText:
+      "Your experience in post secondary has improved your mental resilience!",
   };
   temp[1][9] = {
     visible: true,
@@ -299,9 +302,11 @@ const addBoard = (temp) => {
   };
   temp[1][6] = {
     visible: true,
-    options: [],
-    text: "",
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
+    text: "Grit",
     colour: "#c126f0",
+    scenarioText:
+      "Your experience in post secondary has improved your mental resilience!",
   };
   temp[1][5] = {
     visible: true,
@@ -322,9 +327,11 @@ const addBoard = (temp) => {
   };
   temp[1][4] = {
     visible: true,
-    options: [],
-    text: "",
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
+    text: "Grit",
     colour: "#c126f0",
+    scenarioText:
+      "Your experience in post secondary has improved your mental resilience!",
   };
 
   temp[1][11] = {
@@ -485,7 +492,7 @@ const addBoard = (temp) => {
   };
   temp[6][15] = {
     visible: true,
-    options: ["+10 mental fortitude"],
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
     text: "Grit",
     colour: "#c126f0",
     scenarioText:
@@ -493,7 +500,7 @@ const addBoard = (temp) => {
   };
   temp[7][15] = {
     visible: true,
-    options: ["+4000 dollars"],
+    options: ["Roll a d4. Receive the roll * 2000 dollars."],
     text: "Money",
     colour: "#c126f0",
     scenarioText:
@@ -515,13 +522,14 @@ const addBoard = (temp) => {
   };
   temp[8][18] = {
     visible: true,
-    options: [],
-    text: "",
+    options: ["Roll a d4. Receive the roll * 2 mental fortitude."],
+    text: "Grit",
     colour: "#2ee681",
+    scenarioText: "Your mental has improved!",
   };
   temp[8][17] = {
     visible: true,
-    options: ["+6000 dollars"],
+    options: ["Roll a d4. Receive the roll * 2000 dollars."],
     text: "Money",
     colour: "#2ee681",
     scenarioText: "You got some money!",

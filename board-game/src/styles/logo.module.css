@@ -1,6 +1,8 @@
 .logoContainer {
   width: 50vw;
   height: 30vw;
+  background: url(../img/logo.png);
+  background-size: cover;
 }
 
 .logoText {
