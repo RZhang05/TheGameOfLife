@@ -155,7 +155,7 @@ const addBoard = (temp) => {
     text: "Event",
     colour: "#f5366f",
     scenarioText:
-      "Your friend just recommended you join a position open in his company. As a part of the process, you are told that the company utilizes an AI to score their applicants and determine their employability. After going through various interviews, for which you thought went very well, your friend lets you know that things are looking good. However, you are soon notified that the company has decided to move along with other applicants. You don’t understand why after you received such great feedback from your interviewers. After asking your friend, he lets you know, in unanimity, that their company’s AI is biased against <your religion> based on the data it was trained on and believes it is likely the reason you were not hired. He also tells you not to tell anyone because if the company finds out he told you, it may cost him his job. What do you do?",
+      "Your friend just recommended you join a position open in his company. As a part of the process, you are told that the company utilizes an AI to score their applicants and determine their employability. After going through various interviews, for which you thought went very well, your friend lets you know that things are looking good. However, you are soon notified that the company has decided to move along with other applicants. You don’t understand why after you received such great feedback from your interviewers. After asking your friend, he lets you know, in unanimity, that their company’s AI is biased against your religion based on the data it was trained on and believes it is likely the reason you were not hired. He also tells you not to tell anyone because if the company finds out he told you, it may cost him his job. What do you do?",
   };
 
   temp[3][6] = {
@@ -361,7 +361,7 @@ const addBoard = (temp) => {
     text: "Event",
     colour: "#56a0f5",
     scenarioText:
-      "You’ve been using your handy news app for years now for any trending current events and to keep up to date with the world. However, recently, you noticed that there has been a rise in articles that have been describing <your religion> as barbaric. You think nothing of it at first as you assume it’s a rare occurrence. However, you notice it more and more as you begin to believe the news source you once enjoyed may have become a hotspot for <your religion> hate speech. You also know that it is one of the most popular news sources among your family, friends, and community. You are concerned that some of the rhetoric in these articles will have an impact or rub off on the people you know.",
+      "You’ve been using your handy news app for years now for any trending current events and to keep up to date with the world. However, recently, you noticed that there has been a rise in articles that have been describing your religion as barbaric. You think nothing of it at first as you assume it’s a rare occurrence. However, you notice it more and more as you begin to believe the news source you once enjoyed may have become a hotspot for hate speech about your religion. You also know that it is one of the most popular news sources among your family, friends, and community. You are concerned that some of the rhetoric in these articles will have an impact or rub off on the people you know.",
   };
   temp[1][14] = {
     visible: true,
