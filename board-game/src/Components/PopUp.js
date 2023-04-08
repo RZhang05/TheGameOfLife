@@ -15,10 +15,7 @@ const PopUp = ({ onClick, title, text, isEvent, ans, options, outcomes }) => {
         <div
           className={styles.popupBody}
           onClick={() => {
-            if (isEvent)
-              setShow((prev) => {
-                return true;
-              });
+            if (isEvent && outcomes) setShow(true);
           }}
         >
           {text && !showAns && <div>{text}</div>}
@@ -43,7 +40,7 @@ const PopUp = ({ onClick, title, text, isEvent, ans, options, outcomes }) => {
               })}
             </ol>
           )}
-          {text && !showAns && (
+          {text && outcomes && !showAns && (
             <div className={styles.result}>Click to show results </div>
           )}
         </div>

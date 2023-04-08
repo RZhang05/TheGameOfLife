@@ -8,6 +8,20 @@
   font-size: 12px;
 }
 
+.clickableCell {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #000;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.clickableCell:hover {
+  cursor: pointer;
+}
+
 .text {
   max-width: 90%;
   text-overflow: ellipsis;

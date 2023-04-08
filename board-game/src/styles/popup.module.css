@@ -48,6 +48,7 @@
   height: 100%;
   flex-direction: column;
   flex: 1;
+  overflow-y: auto;
 }
 
 .scenarioText {
